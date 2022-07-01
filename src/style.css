@@ -1,0 +1,41 @@
+body{
+    background-color: #282828;
+}
+
+.pertama{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.input-ability{
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.pokemon-name{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.pokemon-effect{
+    color: white;
+    margin-top: 20px;
+}
+
+.pokemon-flavor{
+    color: white;
+
+}
+
+.list-nama{
+    color: white;
+}
+
+.list-effect{
+    color: white;
+}
+
+.list-keterangan{
+    color: white;
+}
