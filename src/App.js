@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
-import SearchPokemon from './components/SearchPokemon';
-import "./style.css"
+import React, { useEffect, useState } from 'react'
+import Dropdown from './components/Dropdown'
+import SearchPokemon from './components/SearchPokemon'
+import './style.css'
 
 function App() {
   const [isDisconnect, setIsDisconnect] = useState(false)
@@ -28,9 +29,15 @@ function App() {
   }, [])
 
   return isDisconnect ? (
-    <h1 style={{ textAlign: "center", color: 'white' }}>Koneksi Kamu Teputus</h1>
+    <h1 style={{ textAlign: 'center', color: 'white' }}>
+      Koneksi Kamu Teputus
+    </h1>
   ) : (
-    <SearchPokemon />
+    <React.Fragment>
+      <SearchPokemon />
+      <br />
+      <Dropdown />
+    </React.Fragment>
   )
 }
 

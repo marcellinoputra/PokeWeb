@@ -1,8 +1,9 @@
 body{
-    background-color: #282828;
+    background-color: white;
+    text-align: center;
 }
 
-.pertama{
+/* .pertama{
     color: white;
     font-family: sans-serif;
     text-align: center;
@@ -38,4 +39,4 @@ body{
 
 .list-keterangan{
     color: white;
-}
+} */
